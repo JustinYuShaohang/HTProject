@@ -21,5 +21,8 @@ docker build -t {image name}
 - to pull the docker image from docker hub
   
   docker pull justinyushaohang/ht-project-image:latest
+
+- to run the docker image with docker container
+docker run -d -p 8000:8000 htxproject
   
   
