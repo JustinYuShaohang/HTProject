@@ -25,4 +25,10 @@ docker build -t {image name}
 - to run the docker image with docker container
 docker run -d -p 8080:80 htxproject
   
+- to check if docker container is running
+docker container ls -al
+  
+- to stop the container
+docker stop htxproject
+  
   
