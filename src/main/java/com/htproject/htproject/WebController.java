@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class WebController {
-    @GetMapping("/welcome")
+    @GetMapping("")
     public String welcome(){
-        return "Good day to have chat and sharing with your";
+        return "Welcome to this page, for more details pls view the README.MD";
     }
 }
